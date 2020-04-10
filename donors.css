@@ -1,0 +1,35 @@
+body{
+        background: #ffd89b;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #19547b, #ffd89b);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #19547b, #ffd89b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+      }
+      tr{
+        background-color:#e8e6e6;
+        
+      }
+      tr:nth-child(2n){
+        background-color:white;
+      }
+      td{
+        padding:10px;
+        color:black;
+      }
+      th{
+        background-color:#241f1f;
+        padding: 10px;
+        color:white;
+      }
+      h1{
+        color:white;
+        text-shadow: 3px 3px grey;
+      }
+      h3{
+         color:white;
+        text-shadow: 3px 3px grey;
+        margin-left:20px;
+      }
+      table{
+        margin:20px 0px;
+      }

@@ -1,0 +1,153 @@
+html{
+	width:100%;
+	height:100%;
+}
+nav {
+	height:70px;
+	background-color: #f9f9f9;
+}
+.logo{
+	width:60px;
+	height:40px;
+	margin-top:0;
+	margin-bottom:20px;
+}
+.brand{
+	color:#d81e05;
+	font-size: 45px;
+	height:100px;
+}
+.links{
+	font-family:'Lato',sans-serif;
+	font-size:20px;
+
+}
+.jumbotron{
+	background: url("images/carousel.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color:white;
+	height:350px;
+}
+.btns{
+	background-color: transparent;
+	border-color: grey;
+	font-size:;
+}
+
+a.btns:hover{
+	background-color:black;
+	border-color:black;
+
+
+
+}
+.jumb{
+	padding:7px;
+	padding-top:20px;
+	background-color:#c11802;
+	height:230px;
+	font-family: 'Lato',sans-serif;
+	font-weight:700;
+
+
+}
+
+.jumbotron{
+	color:white;
+	margin-bottom:1px;
+}
+.check{
+	padding-top:20px;
+	padding-left:30px;
+	margin-top:0;
+	background-color:#f9f9f9;
+	font-family: 'Lato',sans-serif;
+	font-size:22px;
+}
+span.link2{
+	padding:5px;
+	/*height:80px;*/
+	font-weight: 80px;
+}
+a.check1{
+	color: #c11802;
+	text-decoration: underline;
+
+}
+a.check1:hover{
+	color:white;
+	background-color: #c11802;
+	padding: 8px;
+}
+/*span.link2:hover{
+	background-color: #c11802;
+	color:white;
+}
+*/
+.card{
+	margin-left:60px;
+	/*background-color:#f8fcf6;
+	border-color: green;*/
+	box-shadow: 5px 10px grey;
+}
+.cama{
+	margin-left:60px;
+	background-color:#f8fcf6;
+	border-color: green;
+}
+
+.btns2{
+	background-color: green;
+	border-color: green;
+}
+.down{
+	height:2px;
+}
+.size2{
+	font-size: 42px;
+}
+.car.col-sm-12{
+	width:60rem;
+	margin-bottom:10px;
+}
+
+.contain1{
+	color:black;
+	background-color: #f4f4f4;
+	width:100%;
+	margin:20px 0px 0px 0px;
+	padding-left:20px;
+
+}
+#contain2{
+	background-color:#f4f4f4;
+	height:160px;
+	padding-top:4px;
+	margin-top:0px;
+}
+.last{
+	background-color:#f4f4f4;
+	color:#5f5f5f;
+}
+.contain3{margin:0;
+	margin-bottom: 0px;
+	padding-bottom:0;
+	color:black;
+	background-color: #f4f4f4;
+	word-spacing: 10px;
+
+}
+.spacing{
+	word-spacing: 30px;
+	margin-bottom: 0;}
+.footlink{
+	
+	word-spacing:6px;
+	background-color: #212432; color:white;
+}
+.collapse{
+	background-color: white;
+	padding:10px;
+}

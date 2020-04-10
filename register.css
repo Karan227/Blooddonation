@@ -1,0 +1,31 @@
+     nav {
+  height:70px;
+  background-color: #f9f9f9;
+}
+.logo{
+  width:60px;
+  height:40px;
+  margin-top:0;
+  margin-bottom:20px;
+}
+.brand{
+  color:#d81e05;
+  font-size: 45px;
+  height:100px;
+}
+.links{
+  font-family:'Lato',sans-serif;
+  font-size:20px;
+
+}
+    body{
+     background-color:#e1b0b9;  
+    }
+     .margin
+    {
+      margin-top: 120px;
+    }
+    .color
+    {
+      background-color:#DC3545;
+    }

@@ -1,0 +1,166 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+     <link rel="icon" href="images/download.png" type="image/x-icon">
+     <link rel="stylesheet" type="text/css" href="register.css">
+    
+
+    <title>NBR-Register</title>  
+<script type="text/javascript">
+  function run(){
+
+var username = document.getElementById("fname").value;
+localStorage.setItem("textvalue",username);
+return false;
+}
+</script>
+
+  </head>
+  <body>
+
+
+    <!-- navbar starts here -->
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="Index.html"><img class="logo" src="images/download.png"><strong><span class="brand">NBR</span></strong></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent" style="background-color: white; padding:10px;">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item ">
+        <a class="nav-link" href="Index.html"><span class="links">Home </span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="register.html"><span class="links">Register</span></a>
+      </li>
+     
+      
+      
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <ul class="navbar-nav mr-auto">
+       
+        
+      </ul>
+    </form>
+  </div>
+</nav>
+
+
+
+  <div class="container-fluid margin">
+    <div class="offset-sm-4 col-sm-4">
+      <div class="card text-blank border-0">
+      <div class="card-body color">
+       
+       <div class="card-title text-center">
+        <h5 style="color: white;"><br>Become a Donor!</h5>
+       </div><br>
+  
+        <div class="card-text">
+
+
+           <!-- form starts here -->
+  
+        <form method="post" action="redirect-home.html">
+          <div class="form-row">
+          
+          <div class="form-group col-sm-6">
+            <input type="text" class="form-control" placeholder="First Name" id="fname" name="fname" required>
+          </div>
+    
+          <div class="form-group col-sm-6">
+            <input type="text" class="form-control" placeholder="Last Name" id="lname" name="lname" required>
+          </div>
+          
+          </div>
+          
+
+          <div class="form-group">
+  
+          <input type="text" placeholder="Bloodtype" class="form-control" id="blood" name="blood" required>
+          
+  
+          </div>
+
+         
+          <div class="form-group">
+  
+          <input type="tel" placeholder="Phone No." class="form-control" id="phone" name="phone" required>
+         
+          <div class="error text-warning"></div>
+  
+          </div>
+
+  
+         
+          <div class="form-group">
+          <input type="text" class="form-control" placeholder="City" id="pass" name="pass" required>
+          </div>
+  
+  
+          
+          <div class="text-center">
+          <button class="btn btn-block btn-warning" onclick="run()"  data-toggle="modal" data-target="#myModal" >Submit</button>
+         
+
+          <!-- Modal -->
+
+
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+
+
+    <div class="modal-content" style="margin:0;padding:0;">
+      
+      <div class="modal-body alert alert-danger" id="mod-content" style="height:100%; margin:0;padding-top:10;">
+        <button type="button" class="close" data-dismiss="modal" >&times;</button>
+        <p id="modText">Enter Valid Input</p>
+
+      </div>
+     
+    </div>
+
+  </div>
+</div>
+          </div>
+
+        </form>
+
+        <br>
+      
+
+  
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<br>
+<br>
+<br>
+
+
+ 
+
+   <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+   
+  </body>
+</html>

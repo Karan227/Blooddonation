@@ -1,0 +1,22 @@
+
+    body{
+      background: #abbaab;  
+background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  
+background: linear-gradient(to right, #ffffff, #abbaab); 
+    }
+    
+    p{
+      font-family: verdana;
+      font-size:17px;
+      color:black;
+    }
+    h3{
+      color:#555555;
+      text-shadow:2px 1px grey;
+    }
+    h1{
+        color:#555555;
+      text-shadow:2px 1px grey;
+    }
+
+  

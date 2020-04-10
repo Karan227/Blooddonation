@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+             integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+              crossorigin="anonymous"></script>
+     <link rel="icon" href="images/download.png" type="image/x-icon">
+      <link rel="stylesheet" type="text/css" href="styles.css">
+      <link rel="stylesheet" type="text/css" href="donors.css">
+
+    <title>NBR-Donors</title>
+    
+       
+  </head>
+  <body>
+
+        <!-- nabar starts here -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="Index.html"><img class="logo" src="images/download.png"><strong><span class="brand">NBR</span></strong></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item ">
+        <a class="nav-link" href="Index.html"><span class="links">Home </span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="register.html"><span class="links">Register</span></a>
+      </li>
+     
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <span class="links">Why to give blood</span>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="help.html">Whom you can help</a>
+          <a class="dropdown-item" href="benefits.html">Benefits of donating blood</a>
+          
+      </li>
+      
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <ul class="navbar-nav mr-auto">
+       
+        
+      </ul>
+    </form>
+  </div>
+</nav>
+
+
+
+<!-- nabar ends here -->
+
+
+
+<br>
+<br>
+<br>
+<br>
+<center><h1>Find Donors In Your Near City!</h1></center>
+<div >
+<div class="container">
+  <br>
+  <br>
+  <div class="row">
+  <div class="col col-sm-0 col-4">
+  </div>
+  <div style="border: 0.5px solid white; border-radius:5px;background-color: #f9f9f9;  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);" class="col col-lg-4 col-sm-6" >
+<center><label for="cities" style="margin:10px;"><h4>Choose Your City</h4></label>
+<select class="btn btn-lg btn-secondary" name="cities" id="cities" onchange="run()">
+  <option>Chandigarh</option>
+  <option>Haryana</option>
+  <option>Jalandhar</option>
+  <option>Delhi</option>
+  <option>Pune</option>
+  <option>Phagwara</option>
+
+</select><a href="#Chandigarh" id="optLink"><br><button class="btn btn-md btn-primary" style="margin:10px;">Check</button></a><br></center>
+</div>
+<div class="col col-0 col-lg-4">
+  </div>
+</div>
+</div>
+<br>
+<br>
+<br>
+<div id="Chandigarh">
+  <h3> Donors in Chandigarh:-</h3>
+
+  <center><table border="1px">
+    <tr>
+      <th>NAME</th>
+      <th>Phone</th>
+      <th>Gender</th>
+      <th>Blood Type</th>
+    </tr>
+    <tr>
+      <td>Karan</td>
+      <td>9454594587</td>
+      <td>MALE</td>
+      <td>B+</td>
+    </tr>
+    <tr>
+      <td>Rahul</td>
+      <td>2328323883</td>
+      <td>MALE</td>
+      <td>O-</td>
+    </tr>
+    <tr>
+      <td>Mohan</td>
+      <td>2328545453</td>
+      <td>MALE</td>
+      <td>B-</td>
+    </tr>
+  </table>
+</center>
+  </div>
+  <div id="Haryana">
+     <h3> Donors in Haryana:-</h3>
+
+  <center><table border="1px">
+    <tr>
+      <th>NAME</th>
+      <th>Phone</th>
+      <th>Gender</th>
+      <th>Blood Type</th>
+    </tr>
+    <tr>
+      <td>Vipul</td>
+      <td>9454594587</td>
+      <td>MALE</td>
+      <td>B+</td>
+    </tr>
+    <tr>
+      <td>Mohith</td>
+      <td>2328323883</td>
+      <td>MALE</td>
+      <td>O-</td>
+    </tr>
+    <tr>
+      <td>Hari</td>
+      <td>2328545453</td>
+      <td>MALE</td>
+      <td>B-</td>
+    </tr>
+  </table>
+  </div>
+  <div id="Delhi">
+     <h3> Donors in Delhi:-</h3>
+
+  <center><table border="1px">
+    <tr>
+      <th>NAME</th>
+      <th>Phone</th>
+      <th>Gender</th>
+      <th>Blood Type</th>
+    </tr>
+    <tr>
+      <td>Raghav</td>
+      <td>9454594587</td>
+      <td>MALE</td>
+      <td>B+</td>
+    </tr>
+    <tr>
+      <td>Rahul</td>
+      <td>2328323883</td>
+      <td>MALE</td>
+      <td>O-</td>
+    </tr>
+    <tr>
+      <td>Surendra</td>
+      <td>2328545453</td>
+      <td>MALE</td>
+      <td>B-</td>
+    </tr>
+  </table>
+  </div>
+  <div id="Jalandhar">
+     <h3> Donors in Jalandhar:-</h3>
+
+  <center><table border="1px">
+    <tr>
+      <th>NAME</th>
+      <th>Phone</th>
+      <th>Gender</th>
+      <th>Blood Type</th>
+    </tr>
+    <tr>
+      <td>Jitendra</td>
+      <td>9454594587</td>
+      <td>MALE</td>
+      <td>B+</td>
+    </tr>
+    <tr>
+      <td>Vaibhav</td>
+      <td>2328323883</td>
+      <td>MALE</td>
+      <td>O-</td>
+    </tr>
+    <tr>
+      <td>Rohith</td>
+      <td>2328545453</td>
+      <td>MALE</td>
+      <td>B-</td>
+    </tr>
+  </table>
+  </div>
+  <div id="Pune">
+     <h3> Donors in Pune:-</h3>
+
+  <center><table border="1px">
+    <tr>
+      <th>NAME</th>
+      <th>Phone</th>
+      <th>Gender</th>
+      <th>Blood Type</th>
+    </tr>
+    <tr>
+      <td>Jadhav</td>
+      <td>9454594587</td>
+      <td>MALE</td>
+      <td>B+</td>
+    </tr>
+    <tr>
+      <td>Vishal</td>
+      <td>2328323883</td>
+      <td>MALE</td>
+      <td>O-</td>
+    </tr>
+    <tr>
+      <td>Yash</td>
+      <td>2328545453</td>
+      <td>MALE</td>
+      <td>B-</td>
+    </tr>
+  </table></center>
+  </div>
+  <div id="Phagwara">
+     <h3> Donors in Phagwara:-</h3>
+
+  <center><table border="1px">
+    <tr>
+      <th>NAME</th>
+      <th>Phone</th>
+      <th>Gender</th>
+      <th>Blood Type</th>
+    </tr>
+    <tr>
+      <td>Nikhil</td>
+      <td>9454594587</td>
+      <td>MALE</td>
+      <td>B+</td>
+    </tr>
+    <tr>
+      <td>Harinanda</td>
+      <td>2328323883</td>
+      <td>MALE</td>
+      <td>O-</td>
+    </tr>
+    <tr>
+      <td>Sujit</td>
+      <td>2328545453</td>
+      <td>MALE</td>
+      <td>B-</td>
+    </tr>
+  </table></center>
+  </div>
+<br>
+<br>
+<br>
+<br>
+</div>
+
+
+<!-- footer starts here -->
+
+
+<footer >
+<div class="contain3" style="background-color: #212432; color:white;">
+  <center><p class="spacing"> <a href="benefits.html" class="footlink"> Benefits of Blood Donation </a> | <a href="help.html" class="footlink"> Whom You Can Help </a> | <a href="donors.html" class="footlink">Donors Near You </a> | <a href="register.html" class="footlink"> Register</a></p></center>
+</div>
+
+<div class="container-fluid" id="contain2" style="background-color: #212432; color:white;">
+  <div class="contain1 col col-lg-5" style="background-color:black;  color:white; border-radius:5px;">
+
+  <h1>You Can Call us on:</h1>
+  <strong ><p class="size2">0300 123 23 23</p></strong>
+  <hr>
+  </div></div>
+  <footer class="last" style="background-color: #212432;">
+    <div class="container" style="background-color: #212432;" >
+      <center><b>Copyright@NBR</b></center> 
+    </div>
+  </footer>
+</footer>
+
+<!-- footer ends here -->
+
+<script type="text/javascript" src="cities.js"></script>
+   <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+   
+  </body>
+</html>
